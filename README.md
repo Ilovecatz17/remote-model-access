@@ -28,8 +28,6 @@ Ill put more info and files here soon
  # coming soon
 👀 Apple watch app
 
-👀 Dark mode + icons
-
 👀 Renaming chats
 
 👀 Send images
