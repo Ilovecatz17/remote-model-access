@@ -4,7 +4,7 @@ Ill put more info and files here soon
 # How to use
 
 # features (this is kind of simple but still)
-🔰 Connect to an llm from your ✨iphone✨
+🔰 Connect to an llm running locally on your computer from your ✨iphone✨
 
 🔰 Make multiple chats
 
