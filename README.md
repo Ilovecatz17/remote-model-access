@@ -18,7 +18,7 @@ Ill put more info and files here soon
 
 🔰 Now you should be good, as long as you're connected through wireguard (I used tailscale) or on the same wifi.
 
-## I used LM Studio to host an llm.
+## I used LM Studio to host a llm.
 
 # features (this is kind of simple but still)
 ❤️‍🔥 Connect to an llm running locally on your computer from your ✨iphone✨
