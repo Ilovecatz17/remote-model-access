@@ -5,5 +5,7 @@ Ill put more info and files here soon
 
 # features (this is kind of simple but still)
 🔰 Connect to an llm from your ✨iphone✨
+
 🔰 Make multiple chats
+
 🔰 
