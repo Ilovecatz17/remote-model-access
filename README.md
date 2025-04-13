@@ -32,7 +32,9 @@ Ill put more info and files here soon
 
 👀 Deleting + renaming chats
 
-👀 Images
+👀 Send images
+
+👀 Loading indicator
 
 👀 Apple TV app (Maybe)
 
