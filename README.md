@@ -30,7 +30,7 @@ Ill put more info and files here soon
 
 👀 Dark mode + icons
 
-👀 Deleting + renaming chats
+👀 Renaming chats
 
 👀 Send images
 
