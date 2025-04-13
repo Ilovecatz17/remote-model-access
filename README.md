@@ -36,6 +36,8 @@ Ill put more info and files here soon
 
 👀 Loading indicator
 
+👀 Multiple models
+
 👀 Apple TV app (Maybe)
 
 👀 Saving llm presets (Maybe)
