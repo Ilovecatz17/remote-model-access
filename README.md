@@ -9,3 +9,15 @@ Ill put more info and files here soon
 🔰 Make multiple chats
 
 🔰 
+ # coming soon
+👀 Apple watch app
+
+👀 Dark mode + icons
+
+👀 Deleting + renaming chats
+
+👀 Images
+
+👀 Apple TV app (Maybe)
+
+👀 Saving llm data (Maybe)
