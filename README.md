@@ -25,7 +25,9 @@ Ill put more info and files here soon
 
 ❤️‍🔥 Make multiple chats
  
- # coming soon (eventually)
+ # coming soon (eventually) (not in order)
+👀 Video turorial
+
 👀 Apple watch app
 
 👀 Renaming chats
