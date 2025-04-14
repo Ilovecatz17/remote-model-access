@@ -4,7 +4,7 @@ This was made in Xcode, and I dont have an apple developer account so I cant mak
 Ill put more info and files here soon
 
 # how to use
-🔰 Download the zip file in #Releases.
+🔰 Download the zip file in RELEASES.
 
 🔰 After unzipping, open it with Xcode.
 
