@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ConnectionError: Identifiable {
-    var id: UUID = UUID()
+    var id = UUID()
     var message: String
 }
 
@@ -20,6 +20,9 @@ struct ContentView: View {
     @State private var isChatting: Bool = false
     @State private var lastVisibleIndex: Int? = nil
     @State private var chatTitles: [String] = []
+    @State private var showingAboutSheet: Bool = false
+    @State private var showExportAlert = false
+    @State private var showImportAlert = false
 
     init() {
         if let loadedChats = try? JSONDecoder().decode([[[String: String]]].self, from: savedChatsData) {
@@ -59,6 +62,12 @@ struct ContentView: View {
                     }
                 } else {
                     Form {
+                        Section {
+                            Button("About the App") {
+                                showingAboutSheet = true
+                            }
+                        }
+
                         Section(header: Text("Model Settings")) {
                             TextField("Model Label", text: $modelLabel)
                             TextField("Model Request Name", text: $modelRequestName)
@@ -80,6 +89,16 @@ struct ContentView: View {
                             }
                         }
                         
+                        Section(header: Text("Configuration")) {
+                            Button("Export Settings to Clipboard") {
+                                exportSettings()
+                            }
+                            
+                            Button("Import Settings from Clipboard") {
+                                importSettings()
+                            }
+                        }
+                        
                         Section(header: Text("Chats")) {
                             ForEach(chats.indices, id: \.self) { index in
                                 HStack {
@@ -87,7 +106,16 @@ struct ContentView: View {
                                         selectedChatIndex = index
                                         isChatting = true
                                     }
+                                    .contextMenu {
+                                        Button(role: .destructive) {
+                                            deleteChat(at: index)
+                                        } label: {
+                                            Label("Delete Chat", systemImage: "trash")
+                                        }
+                                    }
+                                    
                                     Spacer()
+                                    
                                     Button(action: {
                                         renameChat(at: index)
                                     }) {
@@ -118,6 +146,36 @@ struct ContentView: View {
                 }
             }
             .background(Color(UIColor.systemBackground))
+            .alert("Settings Exported", isPresented: $showExportAlert) {
+                Button("OK", role: .cancel) { }
+            }
+            .alert("Settings Imported", isPresented: $showImportAlert) {
+                Button("OK", role: .cancel) { }
+            }
+            .sheet(isPresented: $showingAboutSheet) {
+                VStack(spacing: 12) {
+                    Text("😻")
+                        .font(.system(size: 60))
+
+                    Text("Remote Model Access")
+                        .font(.title2)
+                        .fontWeight(.bold)
+
+                    Text("Version \(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0")")
+                        .font(.subheadline)
+
+                    Text("Created by ILoveCatz17")
+
+                    Link("GitHub Repository", destination: URL(string: "https://github.com/Ilovecatz17/remote-model-access")!)
+
+                    Button("Close") {
+                        showingAboutSheet = false
+                    }
+                    .padding(.top)
+
+                }
+                .padding()
+            }
         }
     }
     
@@ -158,6 +216,37 @@ struct ContentView: View {
            let root = scene.windows.first?.rootViewController {
             root.present(alert, animated: true)
         }
+    }
+    
+    func exportSettings() {
+        let config: [String: Any] = [
+            "modelRequestName": modelRequestName,
+            "apiKey": apiKey,
+            "serverEndpoint": serverEndpoint,
+            "contextSize": contextSize,
+            "modelLabel": modelLabel
+        ]
+        
+        if let data = try? JSONSerialization.data(withJSONObject: config, options: .prettyPrinted),
+           let jsonString = String(data: data, encoding: .utf8) {
+            UIPasteboard.general.string = jsonString
+        }
+        showExportAlert = true
+    }
+    
+    func importSettings() {
+        guard let jsonString = UIPasteboard.general.string,
+              let data = jsonString.data(using: .utf8),
+              let config = try? JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else {
+            return
+        }
+
+        modelRequestName = config["modelRequestName"] as? String ?? modelRequestName
+        apiKey = config["apiKey"] as? String ?? apiKey
+        serverEndpoint = config["serverEndpoint"] as? String ?? serverEndpoint
+        contextSize = config["contextSize"] as? Int ?? contextSize
+        modelLabel = config["modelLabel"] as? String ?? modelLabel
+        showImportAlert = true
     }
 }
 
@@ -365,12 +454,5 @@ struct ChatView: View {
         if let encoded = try? JSONEncoder().encode(chats) {
             UserDefaults.standard.set(encoded, forKey: "savedChats")
         }
-    }
-}
-
-struct ScrollOffsetKey: PreferenceKey {
-    static var defaultValue: CGFloat = 0
-    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
-        value = nextValue()
     }
 }
