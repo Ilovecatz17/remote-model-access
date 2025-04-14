@@ -4,10 +4,29 @@ this app allows you to chat with a llm running on a separate machine which is ei
 # how to set up tailscale to let you use your server endpoint on any machine on your tailnet
 ## assuming both your iphone the app is on and the device hosting the local llm server:
 read this for more information: https://tailscale.com/kb/1223/funnel
-📡 Look at your server url that you're hosting from your device and copy the numbers after the ":" at the end.
 
-📡 Open your terminal, and enter ```tailscale funnel [Numbers after ":"]``` or for it to always be on in the background
+📡 Look at your server url that you're hosting from your device and copy the numbers after the ":" at the end, which is your port number.
 
-📡 
+📡 Open your terminal, and enter ```tailscale funnel [Port Number]``` or for it to always be on in the background, ```tailscale funnel --bg [Port Number]``` EXAMPLE: ```tailscale funnel 1234``` or ```tailscale funnel --bg 1234``` respectively, if my port was "1234".
 
-📡 
+📡 The terminal should display your tailscale funnel url for this now, and this will act as your tailscale server endpoint for the app.
+
+📡 You can use the same api key in the app even if it's through tailscale.
+
+📡 It should work now!
+
+# privacy
+No data is collected. Everything is on device except tailscale and your llm. :)
+
+# coming soon (eventually)
+👀 File export + import, to save your api key, endpoint, and model label and request name, for ease of use
+
+👀 Support for multiple models at a time, but one per chat still (might be complicated as i only have one computer to host llms but we will see)
+
+👀 More customization
+
+👀 Image sending support for compatible models
+
+👀 Apple TV App (maybe this summer)
+
+👀 Apple Watch App (maybe this summer)
