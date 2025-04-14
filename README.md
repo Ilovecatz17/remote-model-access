@@ -20,7 +20,7 @@ Ill put more info and files here soon
 ❤️‍🔥 Make multiple chats
  
  # coming soon (eventually) (not in order)
-👀 Video turorial
+👀 Video tutorial
 
 👀 Apple watch app
 
