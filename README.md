@@ -1,11 +1,10 @@
 # remote-model-access
-Allows you to chat with a llm from a separate device on the same wifi on an iphone.
+Allows you to chat with a llm from a separate device on the same wifi on an iphone or with tailscale, from anywhere.
 
 This was made in Xcode, and I dont have an apple developer account so I cant make this an .ipa, unless I find some other way.
 
 Ill put more info and files here soon
 
-Originally this was to be used with tailscale but im not sure if tailscale will help.
 # how to use
 🔰 Download the zip file in RELEASES.
 
