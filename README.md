@@ -1,8 +1,8 @@
 # remote-model-access
-Allows you to chat with a llm from a separate device through tailscale on an iphone.
+Allows you to chat with a llm from a separate device on the same wifi on an iphone.
 This was made in Xcode, and I dont have an apple developer account so I cant make this an .ipa, unless I find some other way.
 Ill put more info and files here soon
-
+Originally this was to be used with tailscale but im not sure if tailscale will help.
 # how to use
 🔰 Download the zip file in RELEASES.
 
@@ -18,7 +18,7 @@ Ill put more info and files here soon
 
 🔰 Now you should be good, as long as you're connected through wireguard (I used tailscale) or on the same wifi.
 
-## I used LM Studio to host a llm.
+## I used LM Studio to host a llm, but you can use ollama or others as long as they give you a working server endpoint and api key.
 
 # features (this is kind of simple but still)
 ❤️‍🔥 Connect to an llm running locally on your computer from your ✨iphone✨
