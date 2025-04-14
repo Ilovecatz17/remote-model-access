@@ -6,7 +6,7 @@ this app allows you to chat with a llm running on a separate machine which is ei
 
 📡 Look at your server url that you're hosting from your device and copy the numbers after the ":" at the end.
 
-📡 Open your terminal, and enter "tailscale funnel [Numbers after ":"] or for it to always 
+📡 Open your terminal, and enter ```tailscale funnel [Numbers after ":"]``` or for it to always 
 
 📡 
 
