@@ -7,7 +7,7 @@ read this for more information: https://tailscale.com/kb/1223/funnel
 
 📡 Look at your server url that you're hosting from your device and copy the numbers after the ":" at the end, which is your port number.
 
-📡 Open your terminal, and enter ```tailscale funnel [Port Number]``` or for it to always be on in the background, ```tailscale funnel --bg [Port Number]``` EXAMPLE: ```tailscale funnel 1234``` or ```tailscale funnel --bg 1234``` respectively, if my port was "1234".
+📡 Open your terminal, and enter ```tailscale funnel [Port Number]``` or for it to always be on in the background, ```tailscale funnel --bg [Port Number]``` EXAMPLE: ```tailscale funnel 1234``` or ```tailscale funnel --bg 1234``` respectively, if your port was "1234".
 
 📡 The terminal should display your tailscale funnel url for this now. Add "/v1/chat/completions" to that url and this will act as your tailscale server endpoint for the app.
 
