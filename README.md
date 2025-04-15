@@ -1,4 +1,4 @@
-I accidentally deleted this readme so i need to remake it all 😭
+I accidentally deleted this readme so i had to remake it all 😭
 # welcome to remote model access
 this app allows you to chat with a llm running on a separate machine which is either on the same internet on your iphone, or on the same tailscale network (Tailnet), from anywhere.
 # how to set up tailscale to let you use your server endpoint on any machine on your tailnet
@@ -18,8 +18,13 @@ read this for more information: https://tailscale.com/kb/1223/funnel
 # privacy
 No data is collected. Everything is on device except tailscale and your llm. :)
 
-# coming soon (eventually)
+# coming soon (eventually) 
+👀 Support (github link for help)
+
+👀 Repo
+
 👀 File export + import, to save your api key, endpoint, and model label and request name, for ease of use
+
 
 👀 Support for multiple models at a time, but one per chat still (might be complicated as i only have one computer to host llms but we will see)
 
