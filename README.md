@@ -14,6 +14,9 @@ read this for more information: https://tailscale.com/kb/1223/funnel
 📡 You can use the same api key in the app even if it's through tailscale.
 
 📡 It should work now!
+# how to turn off tailscale funneling (just in case)
+
+📡 use ```tailscale funnel -off [Port Number]```, doesn't matter if it was running in background mode or not, both will turn off with this command.
 
 # privacy
 No data is collected. Everything is on device except tailscale and your llm. :)
