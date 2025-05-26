@@ -11,10 +11,12 @@ read this for more information: https://tailscale.com/kb/1223/funnel
 
 📡 The terminal should display your tailscale funnel url for this now. Add "/v1/chat/completions" to that url and this will act as your tailscale server endpoint for the app.
 
-📡 You can use the same api key in the app even if it's through tailscale.
+📡 You can use the same api key in the app even if it's through tailscale, BUT YOU DONT NEED IT as you are self-hosting.
+
+📡 Put the default identifier as the model request name, for example, "gemma-3-4b-it-qat"
 
 📡 It should work now!
-# how to turn off tailscale funneling (just in case)
+# how to turn off tailscale funneling (If you want)
 
 📡 Use ```tailscale funnel -off [Port Number]```, doesn't matter if it was running in background mode or not, both will turn off with this command.
 
