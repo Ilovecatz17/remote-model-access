@@ -30,8 +30,10 @@ No data is collected. Everything is on device except tailscale and your llm. :)
 
 👀 More customization
 
-~~👀 Image sending support for compatible models~~ not available through the lmstudio api.
+👀 Title summary option (toggle) (maybe this summer)
 
 👀 Apple TV App (maybe this summer)
 
 👀 Apple Watch App (maybe this summer)
+
+~~👀 Image sending support for compatible models~~ not available through the lmstudio api.
