@@ -30,7 +30,7 @@ No data is collected. Everything is on device except tailscale and your llm. :)
 
 👀 More customization
 
-👀 --Image sending support for compatible models--
+~~👀 Image sending support for compatible models~~
 
 👀 Apple TV App (maybe this summer)
 
