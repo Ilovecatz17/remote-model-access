@@ -28,8 +28,6 @@ No data is collected. Everything is on device except tailscale and your llm. :)
 
 👀 Support for multiple models at a time, but one per chat still (might be complicated as i only have one computer to host llms but we will see)
 
-👀 More customization
-
 👀 Apple TV App (maybe this summer)
 
 👀 Apple Watch App (maybe this summer)
