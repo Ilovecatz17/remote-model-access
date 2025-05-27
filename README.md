@@ -1,4 +1,5 @@
 I accidentally deleted this readme so i had to remake it all 😭
+
 # welcome to remote model access
 this app allows you to chat with a llm running on a separate machine which is either on the same internet on your iphone, or on the same tailscale network (Tailnet), from anywhere.
 # how to set up tailscale to let you use your server endpoint on any machine on your tailnet
@@ -31,5 +32,7 @@ No data is collected. Everything is on device except tailscale and your llm. :)
 👀 Apple TV App (maybe this summer)
 
 👀 Apple Watch App (maybe this summer)
+
+👀 Central website to also interact with your model. Similar to the apps. (maybe this summer)
 
 ~~👀 Image sending support for compatible models~~ not available through the lmstudio api.
