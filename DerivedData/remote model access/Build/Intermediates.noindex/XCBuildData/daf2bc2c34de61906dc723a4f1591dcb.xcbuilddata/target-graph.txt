@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'remote model access' in project 'remote model access'
-➜ Explicit dependency on target 'remote model access watch Watch App' in project 'remote model access'
-Target 'remote model access watch Watch App' in project 'remote model access' (no dependencies)
