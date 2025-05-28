@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-watchsimulator/remote model access watch Watch AppTests.build/Objects-normal/arm64/remote model access watch Watch AppTests-master.d",
+    "diagnostics" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-watchsimulator/remote model access watch Watch AppTests.build/Objects-normal/arm64/remote model access watch Watch AppTests-master.dia",
+    "emit-module-dependencies" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-watchsimulator/remote model access watch Watch AppTests.build/Objects-normal/arm64/remote model access watch Watch AppTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-watchsimulator/remote model access watch Watch AppTests.build/Objects-normal/arm64/remote model access watch Watch AppTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-watchsimulator/remote model access watch Watch AppTests.build/Objects-normal/arm64/remote model access watch Watch AppTests-master.swiftdeps"
+  },
+  "/Users/juliousrobins/Downloads/remote-model-access/remote model access watch Watch AppTests/remote_model_access_watch_Watch_AppTests.swift" : {
+
+  }
+}

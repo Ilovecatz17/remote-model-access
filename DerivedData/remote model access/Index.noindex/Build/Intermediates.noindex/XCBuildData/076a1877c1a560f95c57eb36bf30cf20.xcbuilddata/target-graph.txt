@@ -1,0 +1,23 @@
+Target dependency graph (14 targets)
+Target 'remote model access watch Watch AppUITests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access watch Watch App' in project 'remote model access'
+Target 'remote model access watch Watch AppUITests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access watch Watch App' in project 'remote model access'
+Target 'remote model access watch Watch AppTests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access watch Watch App' in project 'remote model access'
+Target 'remote model access watch Watch AppTests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access watch Watch App' in project 'remote model access'
+Target 'remote model access watch Watch App' in project 'remote model access' (no dependencies)
+Target 'remote model access watch Watch App' in project 'remote model access' (no dependencies)
+Target 'remote model accessUITests' in project 'remote model access' (no dependencies)
+Target 'remote model accessUITests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access' in project 'remote model access'
+Target 'remote model accessUITests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access' in project 'remote model access'
+Target 'remote model accessTests' in project 'remote model access' (no dependencies)
+Target 'remote model accessTests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access' in project 'remote model access'
+Target 'remote model accessTests' in project 'remote model access'
+➜ Explicit dependency on target 'remote model access' in project 'remote model access'
+Target 'remote model access' in project 'remote model access' (no dependencies)
+Target 'remote model access' in project 'remote model access' (no dependencies)

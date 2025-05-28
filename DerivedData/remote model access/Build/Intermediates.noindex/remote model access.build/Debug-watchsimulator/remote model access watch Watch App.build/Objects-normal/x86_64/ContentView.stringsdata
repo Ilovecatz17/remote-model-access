@@ -1,0 +1,88 @@
+{
+  "source": "/Users/juliousrobins/Downloads/remote-model-access/remote model access watch Watch App/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Model",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Configuration",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model Label",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model Request Name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Key (leave blank if self hosting)",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Server Endpoint",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chat",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "No messages",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "tiny message",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 124
+        }
+      }
+    ]
+  },
+  "version": 1
+}

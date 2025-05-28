@@ -1,0 +1,124 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/11.4/CoreTransferable.swiftmodule/arm64_32-apple-watchos.swiftmodule'
+dependencies:
+  - mtime:           1742264089000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/11.4/CoreTransferable.swiftmodule/arm64_32-apple-watchos.swiftmodule'
+    size:            75628
+  - mtime:           1741407440000000000
+    path:            'usr/lib/swift/Swift.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            1928530
+    sdk_relative:    true
+  - mtime:           1741408146000000000
+    path:            'usr/include/_time.apinotes'
+    size:            1132
+    sdk_relative:    true
+  - mtime:           1741408295000000000
+    path:            'usr/lib/swift/_errno.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            3848
+    sdk_relative:    true
+  - mtime:           1741408318000000000
+    path:            'usr/lib/swift/_signal.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            1059
+    sdk_relative:    true
+  - mtime:           1741408315000000000
+    path:            'usr/lib/swift/sys_time.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            1060
+    sdk_relative:    true
+  - mtime:           1741408300000000000
+    path:            'usr/lib/swift/_time.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            1023
+    sdk_relative:    true
+  - mtime:           1741408311000000000
+    path:            'usr/lib/swift/_stdio.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            1471
+    sdk_relative:    true
+  - mtime:           1741408323000000000
+    path:            'usr/lib/swift/unistd.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            811
+    sdk_relative:    true
+  - mtime:           1741408295000000000
+    path:            'usr/lib/swift/_math.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            15242
+    sdk_relative:    true
+  - mtime:           1741407488000000000
+    path:            'usr/lib/swift/_Builtin_float.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            4221
+    sdk_relative:    true
+  - mtime:           1741408336000000000
+    path:            'usr/lib/swift/Darwin.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            18213
+    sdk_relative:    true
+  - mtime:           1741408658000000000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            230590
+    sdk_relative:    true
+  - mtime:           1741409121000000000
+    path:            'usr/lib/swift/_StringProcessing.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            22867
+    sdk_relative:    true
+  - mtime:           1741409609000000000
+    path:            'System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            167792
+    sdk_relative:    true
+  - mtime:           1741411513000000000
+    path:            'usr/include/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1741404697000000000
+    path:            'usr/include/Dispatch.apinotes'
+    size:            19
+    sdk_relative:    true
+  - mtime:           1741410705000000000
+    path:            'System/Library/Frameworks/Security.framework/Headers/Security.apinotes'
+    size:            162
+    sdk_relative:    true
+  - mtime:           1741748427000000000
+    path:            'System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes'
+    size:            81098
+    sdk_relative:    true
+  - mtime:           1741409571000000000
+    path:            'usr/lib/swift/ObjectiveC.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            6555
+    sdk_relative:    true
+  - mtime:           1741409792000000000
+    path:            'usr/lib/swift/Dispatch.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            57128
+    sdk_relative:    true
+  - mtime:           1741409929000000000
+    path:            'usr/lib/swift/CoreFoundation.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            22816
+    sdk_relative:    true
+  - mtime:           1741408779000000000
+    path:            'usr/lib/swift/Observation.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            3448
+    sdk_relative:    true
+  - mtime:           1741409557000000000
+    path:            'usr/lib/swift/System.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            95462
+    sdk_relative:    true
+  - mtime:           1741748394000000000
+    path:            'System/Library/Frameworks/Foundation.framework/Modules/Foundation.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            990101
+    sdk_relative:    true
+  - mtime:           1741411730000000000
+    path:            'System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes'
+    size:            1666
+    sdk_relative:    true
+  - mtime:           1741410764000000000
+    path:            'usr/lib/swift/UniformTypeIdentifiers.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            20568
+    sdk_relative:    true
+  - mtime:           1741408146000000000
+    path:            'usr/include/os.apinotes'
+    size:            1658
+    sdk_relative:    true
+  - mtime:           1741409943000000000
+    path:            'usr/lib/swift/os.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            108023
+    sdk_relative:    true
+  - mtime:           1741412337000000000
+    path:            'System/Library/Frameworks/CoreTransferable.framework/Modules/CoreTransferable.swiftmodule/arm64_32-apple-watchos.swiftinterface'
+    size:            22029
+    sdk_relative:    true
+version:         1
+...

@@ -1,0 +1,312 @@
+{
+  "source": "/Users/juliousrobins/Downloads/remote-model-access/remote model access/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings Exported",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings Imported",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Configuration",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configuration",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model Label",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model Request Name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Key (leave blank if self hosting)",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Server Endpoint",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Context Size:",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Context Size",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-Summarize Chat Titles",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export Settings to Clipboard",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Import Settings from Clipboard",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Chats",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear All Chats?",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear All",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "Are you sure you want to delete all chats? This cannot be undone.",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Chat",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Chat",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "😻",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 225
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remote Model Access",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 232
+        }
+      },
+      {
+        "comment": "",
+        "key": "Created by ILoveCatz17",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "GitHub Repository",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 239
+        }
+      },
+      {
+        "comment": "",
+        "key": "This chat is empty.",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 409
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type your message",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 474
+        }
+      },
+      {
+        "comment": "",
+        "key": "Send",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 481
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connection Error",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 496
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 111,
+          "startingLine": 496
+        }
+      }
+    ]
+  },
+  "version": 1
+}

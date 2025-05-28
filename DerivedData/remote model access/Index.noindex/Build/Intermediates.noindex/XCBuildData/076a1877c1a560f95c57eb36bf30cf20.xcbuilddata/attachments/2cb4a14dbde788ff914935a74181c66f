@@ -1,0 +1,18 @@
+{
+  "" : {
+    "dependencies" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-iphoneos/remote model access.build/Objects-normal/arm64/remote model access-master.d",
+    "diagnostics" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-iphoneos/remote model access.build/Objects-normal/arm64/remote model access-master.dia",
+    "emit-module-dependencies" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-iphoneos/remote model access.build/Objects-normal/arm64/remote model access-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-iphoneos/remote model access.build/Objects-normal/arm64/remote model access-master-emit-module.dia",
+    "swift-dependencies" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-iphoneos/remote model access.build/Objects-normal/arm64/remote model access-master.swiftdeps"
+  },
+  "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/remote model access.build/Debug-iphoneos/remote model access.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/juliousrobins/Downloads/remote-model-access/remote model access/ContentView.swift" : {
+
+  },
+  "/Users/juliousrobins/Downloads/remote-model-access/remote model access/remote_model_accessApp.swift" : {
+
+  }
+}

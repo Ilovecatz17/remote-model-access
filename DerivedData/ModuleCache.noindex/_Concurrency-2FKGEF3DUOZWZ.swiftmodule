@@ -1,0 +1,16 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/11.4/_Concurrency.swiftmodule/arm64-apple-watchos-simulator.swiftmodule'
+dependencies:
+  - mtime:           1742264262000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/11.4/_Concurrency.swiftmodule/arm64-apple-watchos-simulator.swiftmodule'
+    size:            526800
+  - mtime:           1741407649000000000
+    path:            'usr/lib/swift/Swift.swiftmodule/arm64-apple-watchos-simulator.swiftinterface'
+    size:            1929053
+    sdk_relative:    true
+  - mtime:           1741408674000000000
+    path:            'usr/lib/swift/_Concurrency.swiftmodule/arm64-apple-watchos-simulator.swiftinterface'
+    size:            230597
+    sdk_relative:    true
+version:         1
+...

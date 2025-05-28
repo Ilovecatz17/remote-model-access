@@ -1,0 +1,63 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "2c7141081646974a66beb8311828f56a9614a71c2227e0327923bc95ec70b283"
+    },
+    {
+      "guid" : "2c7141081646974a66beb8311828f56a4c78e9ecc1724d8607eddc5eb3fbaffb"
+    },
+    {
+      "guid" : "2c7141081646974a66beb8311828f56ae3f6850bbff30e2393aaf45e826a5d8c"
+    },
+    {
+      "guid" : "2c7141081646974a66beb8311828f56a83731ed7118ba1ee395c7e295943767f"
+    },
+    {
+      "guid" : "2c7141081646974a66beb8311828f56a876ca6fe894df5693ac4b80ec1e082cf"
+    },
+    {
+      "guid" : "2c7141081646974a66beb8311828f56a69d336d200fd33bbfd0337bfc19e4a75"
+    }
+  ],
+  "containerPath" : "/Users/juliousrobins/Downloads/remote-model-access/remote model access.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Build/Products",
+      "pchPath" : "/Users/juliousrobins/Downloads/remote-model-access/DerivedData/remote model access/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
