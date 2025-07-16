@@ -27,7 +27,7 @@ read this for more information: https://tailscale.com/kb/1223/funnel
 # privacy
 No data is collected. Everything is on device except tailscale and your llm. :)
 
-# coming soon (eventually) 
+# coming soon (eventually) (actually not bc im archiving this)
 👀 Sideloading Repo (probably not)
 
 👀 Support for multiple models at a time, but one per chat still (might be complicated as i only have one computer to host llms but we will see)
