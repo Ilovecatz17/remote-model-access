@@ -1,3 +1,4 @@
+#### FEEL FREE TO FORK THIS REPO IF YOU WANT
 I accidentally deleted this readme so i had to remake it all 😭
 
 ive given up on this so im going to be archiving this, BUT IT STILL WORKS GREAT!! as of now, idk if things will change.
@@ -49,5 +50,3 @@ No data is collected. Everything is on device except tailscale and your llm. :)
 👀 Central website to also interact with your model. Similar to the apps. (maybe this summer)
 
 ~~👀 Image sending support for compatible models~~ not available through the lmstudio api.
-
-### FEEL FREE TO FORK THIS REPO IF YOU WANT
