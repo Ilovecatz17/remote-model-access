@@ -1,4 +1,4 @@
-#### FEEL FREE TO FORK THIS REPO IF YOU WANT
+# FEEL FREE TO FORK THIS REPO IF YOU WANT
 I accidentally deleted this readme so i had to remake it all 😭
 
 ive given up on this so im going to be archiving this, BUT IT STILL WORKS GREAT!! as of now, idk if things will change.
