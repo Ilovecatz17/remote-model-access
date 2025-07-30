@@ -5,6 +5,7 @@ ive given up on this so im going to be archiving this, BUT IT STILL WORKS GREAT!
 these apps allow you to chat with a llm running on a separate machine which is either on the same internet on your iPhone, Apple watch(coming soon), or Apple TV (coming soon)  or on the same tailscale network (Tailnet), from anywhere.
 # how to set up tailscale to let you use your server endpoint on any machine on your tailnet
 ## Normal method (works only for devices on your Tailnet)
+### DOESNT WORK FOR THIS APP, USE THE FUNNEL METHOD
 📡 Look at your server url that you're hosting from your device and copy the numbers after the ":" at the end, which is your port number. Example: "11435"
 
 📡 Go to the Tailscale admin page and copy your devices' address that you're hosting from. Example "100.20.300.40"
@@ -13,7 +14,8 @@ these apps allow you to chat with a llm running on a separate machine which is e
 
 📡 Enter this url into the corresponding settings area in the app.
 
-## funnel method (works with any device, even if its not on your Tailnet)
+## funnel method (works with any device, even if its not on your Tailnet) - 
+#### it seems like this is the only method that works here
 ### assuming both the llm server is successfully hosting and the app is running on your device:
 read this for more information: https://tailscale.com/kb/1223/funnel
 
@@ -47,3 +49,5 @@ No data is collected. Everything is on device except tailscale and your llm. :)
 👀 Central website to also interact with your model. Similar to the apps. (maybe this summer)
 
 ~~👀 Image sending support for compatible models~~ not available through the lmstudio api.
+
+### FEEL FREE TO FORK THIS REPO IF YOU WANT
